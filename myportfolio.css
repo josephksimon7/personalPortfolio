@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    background-color: #ffe0e0;
+}
+.container-fluid{
+ padding: o;
+}
+
+#logopic{
+    animation: anim 3s linear 1s;
+}
+#logopic{
+    animation-play-state:running;
+}
+@keyframes anim{
+    /* 0%{
+        transform: rotate(0deg);
+    } */
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.nav-item:hover{
+    text-decoration: underline #ff511c 2px ;
+}
+.nav-item a:hover{
+    color: #ff511c;
+}
+ .logo h1{
+    font-weight: 600;
+    font-family:sans-serif;
+    color: #ff201c;
+    font-size: 18px;
+    
+}
+ .logo span{
+    font-family: sans-serif;
+    color: black;  
+    font-size: 18px;  
+}
+.grid1{
+    text-align: center;
+}
+.img-fluid{
+    padding: 10px;
+    width: 85%;
+    height: auto;
+    
+}
+.img-fluid:hover{
+    transition:0.5s;
+    box-shadow: 0 4px 8px 0 rgb(234, 234, 234), 0 6px 20px 0 rgba(106,104,0.45);
+    transform: scale(1.1);
+}
+
+#gridbtn{
+      background-color: #ff201c; color: white; font-weight: 500;
+      
+}
+.carddecor:hover {
+    transition: 0.5s;
+    box-shadow: 0 4px 8px 0 rgb(234, 234, 234), 0 6px 20px 0 rgba(106, 104, 0.45);
+    transform: scale(1.1);
+}
+.progress-bar{
+    background-color: #ff201c;
+}
